@@ -77,7 +77,7 @@ namespace NoMoreEdge
             url = url.Substring(url.IndexOf("https"), url.Length - url.IndexOf("https"));
             url = url.Substring(42, url.IndexOf("%26") - 42);
             url = url.Replace("%2B", "+");
-            url = "https://www.google.com/search?q=" + url;
+            url = "https://duckduckgo.com/?q=" + url;
             return url;
 
         }
